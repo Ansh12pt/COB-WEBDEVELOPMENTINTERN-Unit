@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(22, 115, 146);
+}
+
+.converter-body {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:1px 1px 4px 2px #2685df;
+    background-color: lightgrey;
+}
+.converter-body:hover {
+    box-shadow: 4px 2px 1px 1px #045597;
+}
+.converter-title {
+    text-align: center;
+    margin: 14px 1px;
+}
+input {
+    height: 25.5px;
+    text-align: center;
+}
+#input {
+    margin-left: 25px;
+}
+#inputType, #resultType {
+    width: 167.66px;
+    margin-left: 27px;
+    color: blue;
+    text-align: center;
+}
+#resultType {
+    margin-left: 12.6px;
+    
+}
